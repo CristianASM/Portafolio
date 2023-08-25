@@ -8,11 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="d-break">
-        <nav class="navbar navbar-expand-sm sticky-top">
+        <nav class="navbar navbar-expand-sm sticky-top rounded-2">
             <div class="container-fluid nav-side">
                 <span class="text-center name-top">Cristian Soto Mardones</span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -21,46 +24,42 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav d-flex flex-column text-center">
-                        <a class="nav-link" href="#perfil">Perfil</a>
-                        <a class="nav-link" href="#habilidades">Habilidades</a>
-                        <a class="nav-link" href="#proyectos">Proyectos</a>
-                        <a class="nav-link" href="#" target="_blank">Descarga mi CV</a>
+                    <div class="d-flex flex-column mt-2">
+                        <a class="nav-link rounded-4" href="#perfil">Perfil</a>
+                        <a class="nav-link rounded-4" href="#habilidades">Habilidades</a>
+                        <a class="nav-link rounded-4" href="#proyectos">Proyectos</a>
+                        <a class="nav-link d-flex justify-content-center" href="#"><button class="btn-cv rounded-3 d-flex align-items-center justify-content-center">Descarga mi CV</button></a>
+                        <div class="d-flex justify-content-center">
+                            <a href="https://github.com/CristianASM" target="_blank"><img class="m-1" src="img/github.png" alt="logo-github"></a>
+                            <a href="https://www.linkedin.com/in/cristian-soto-mardones-12906a28a/" target="_blank"><img class="m-1" src="img/linkedin.png" alt="logo-linkedin"></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </nav>
         <div class="text-width">
-            <section class="view-section" id="perfil">
-                <div class="container">
-                    <h2 class="text-center">Acerca de mi</h2>
-                    <p>¡Hola! Soy Cristian, un joven de 23 años un poco introvertido, pero con muchas energías para trabajar en equipo. Un amante de la tecnología y los videojuegos. Disfruto plantearme desafíos y solucionarlos. Mi objetivo es crecer en el campo de la programación y sumergirme en un entorno que me permita continuar aprendiendo y aplicando mis habilidades. 
+            <section class="view-section container" id="perfil">
+                <div class="text-center border rounded-5 p-3">
+                    <h1>Acerca de mi</h1>
+                    <p class="mt-4">¡Hola! Soy Cristian, un joven de 23 años un poco introvertido, pero con muchas energías para
+                        trabajar en equipo. Un amante de la tecnología y los videojuegos. Disfruto plantearme desafíos y
+                        solucionarlos. Mi objetivo es crecer en el campo de la programación y sumergirme en un entorno
+                        que me permita continuar aprendiendo y aplicando mis habilidades. <br>
                         Creo firmemente que solo basta con una oportunidad para demostrar de lo que eres capaz.</p>
                 </div>
             </section>
-            <section class="view-section" id="habilidades">
-                <div class="container">
-                    <h2 class="text-center">Experiencia</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nam culpa est aspernatur
-                        consectetur
-                        accusantium vero minus aperiam sunt veritatis ad commodi, assumenda quod non repudiandae porro
-                        animi
-                        impedit corporis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod veniam
-                        reprehenderit dicta possimus minus at quos non quaerat aspernatur atque veritatis modi omnis,
-                        hic
-                        officia. Quis eos sequi rem eveniet? <br>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat magni perspiciatis incidunt,
-                        veritatis ullam omnis fugiat eaque atque itaque expedita ipsam sit, saepe pariatur, voluptatem
-                        facere officiis tempore autem tempora. <br> Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Accusamus natus ad modi enim asperiores dignissimos architecto nesciunt repellendus,
-                        maxime
-                        ipsam eligendi eum praesentium illum numquam, similique ducimus, placeat mollitia vel.</p>
+            <section class="view-section container" id="habilidades">
+                <div class="text-center border rounded-5 p-3">
+                    <h1>Experiencia</h1>
+                    <p class="mt-4">Desarrollador Web - Junior <br>
+                        Con experiencia en: <br>
+                        Git - Java - SpringBoot - SQL - HTML - CSS - JavaScript</p>
                 </div>
             </section>
-            <section class="view-section" id="proyectos">
-                <div class="container">
-                    <h2 class="text-center">Proyectos</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nam culpa est aspernatur
+            <section class="view-section container" id="proyectos">
+                <div class="text-center border rounded-5 p-3">
+                    <h1>Proyectos</h1>
+                    <p class="mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nam culpa est aspernatur
                         consectetur
                         accusantium vero minus aperiam sunt veritatis ad commodi, assumenda quod non repudiandae porro
                         animi
