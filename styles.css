@@ -56,9 +56,13 @@ img{
 }
 .btn-cv{
     background-color: #10657e;
-    color: white;
     border: none;
     height: 50px;
+    margin: 15px;
+}
+.btn-none{
+    text-decoration: none;
+    color: white;
 }
 
 /* Section*/ 
@@ -66,6 +70,7 @@ img{
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
