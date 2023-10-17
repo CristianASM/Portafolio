@@ -40,12 +40,22 @@ body {
     .nav-link{
         text-align: center;
         margin: 15px;
+        height: max-content;
+    }
+    .view-section{
+        height: 100vh;
     }
 }
 @media (max-width:767px) {
     .nav-link{
         margin: 5px;
         width: max-content;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .view-section{
+        margin-top: 10px;
     }
 }
 .img-side{
@@ -57,6 +67,7 @@ body {
 }
 .side-link:hover{
     background-color: #10657e;
+    color: #e2b759;
 }
 
 .btn-cv{
@@ -66,7 +77,6 @@ body {
     height: 50px;
 }
 .view-section{
-    height: 100vh;
     display: flex;
     align-items: center;
     width: fit-content;
@@ -80,4 +90,21 @@ nav span{
 .nav-link{
     font-size: 19px;
     font-weight: 500;
+}
+.border-1{
+    border: 3px solid #6f9aac !important;  
+}
+
+/*Iconos habilidades*/
+.icon{
+    width: 110px;
+    margin: 30px;
+    box-shadow: 10px 10px 10px 10px #1f282c;
+    border-radius: 20%;
+}
+
+.card{
+    background-color: #2F3E44;
+    color: aliceblue;
+    margin: 20px;
 }
