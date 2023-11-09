@@ -120,3 +120,6 @@ nav span{
     left: 50%;
     transform: translateX(-50%);
 }
+.img-proyecto{
+    width: 600px;
+}
