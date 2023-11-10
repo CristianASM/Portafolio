@@ -110,8 +110,8 @@ nav span{
 }
 
 .card{
-    background-color: #2F3E44;
-    color: aliceblue;
+    background-color: #f0ebeb;
+    color: rgb(0, 0, 0);
 }
 .img-foto{
     width: 180px;
@@ -119,4 +119,10 @@ nav span{
     top: 100px;
     left: 50%;
     transform: translateX(-50%);
+}
+.card-text-proyecto{
+    text-decoration: none;
+    color: #031ba0;
+    display: flex;
+    align-content: end;
 }
