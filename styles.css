@@ -110,8 +110,8 @@ nav span{
 }
 
 .card{
-    background-color: #f0ebeb;
-    color: rgb(0, 0, 0);
+    background-color: #d4e8f0;
+    color: rgb(2, 2, 2);
 }
 .img-foto{
     width: 180px;
@@ -120,9 +120,19 @@ nav span{
     left: 50%;
     transform: translateX(-50%);
 }
+
 .card-text-proyecto{
+    color: var(--font-color);
+    font-weight: 600;
+    font-size: 15px;
     text-decoration: none;
-    color: #031ba0;
-    display: flex;
-    align-content: end;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.card-text-proyecto:hover {
+    text-decoration: underline;
+}
+.card-text-proyecto img{
+    width: 30px;
+    margin-right: 5px;
 }
