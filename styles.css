@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
 body {
-    background-color: #034352;
+    background-color: #044d5e;
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
@@ -73,12 +73,12 @@ body {
     background-color: rgb(213, 240, 212);
 }
 .side-link:hover{
-    background-color: #034352;
+    background-color: #044d5e;
     color: white;
 }
 
 .btn-cv{
-    background-color: #034352;
+    background-color: #044d5e;
     color: white;
     border: none;
     height: 50px;
