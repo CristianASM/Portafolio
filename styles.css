@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
 body {
-    background-color: #2F3E44;
+    background-color: #034352;
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
 
 .navbar,
 .navbar-nav a {
-    background-color: #e2b759;
+    background-color: rgb(212, 236, 240);
     color: black;
 }
 
@@ -70,18 +70,21 @@ body {
     border-radius: 50%
 }
 .img-side:hover{
-    background-color: white;
+    background-color: rgb(213, 240, 212);
 }
 .side-link:hover{
-    background-color: #10657e;
-    color: #e2b759;
+    background-color: #034352;
+    color: white;
 }
 
 .btn-cv{
-    background-color: #10657e;
+    background-color: #034352;
     color: white;
     border: none;
     height: 50px;
+}
+.btn-cv:hover{
+    color: rgb(213, 240, 212);
 }
 .view-section{
     display: flex;
