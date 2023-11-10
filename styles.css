@@ -67,7 +67,8 @@ body {
 }
 .img-side{
     width: 50px;
-    border-radius: 50%
+    border-radius: 50%;
+    background-color: white;
 }
 .img-side:hover{
     background-color: rgb(213, 240, 212);
